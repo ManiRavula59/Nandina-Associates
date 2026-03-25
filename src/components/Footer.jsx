@@ -54,6 +54,9 @@ const Footer = () => {
 
       <div className={styles.bottomBar}>
         <p>&copy; {new Date().getFullYear()} Nandina Associates. All Rights Reserved.</p>
+        <p className={styles.credits}>
+          Engineered by <a href="mailto:Qubitslab.in@gmail.com" className={styles.creditLink}>QubitsLab</a>
+        </p>
       </div>
     </footer>
   );

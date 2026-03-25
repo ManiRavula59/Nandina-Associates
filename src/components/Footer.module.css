@@ -139,4 +139,35 @@
   border-top: 1px solid rgba(255,255,255,0.1);
   color: #555;
   font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.credits {
+  color: #555;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.creditLink {
+  color: #a1a1aa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.creditLink:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .bottomBar {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
