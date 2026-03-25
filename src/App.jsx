@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Philosophy from './components/Philosophy';
 import Services from './components/Services';
+import Promises from './components/Promises';
 import BudgetPremium from './components/BudgetPremium';
 import WhyChooseUs from './components/WhyChooseUs';
 import Process from './components/Process';
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <Philosophy />
       <Services />
+      <Promises />
       <BudgetPremium />
       <WhyChooseUs />
       <Process />

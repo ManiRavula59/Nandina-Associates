@@ -111,6 +111,28 @@
   100% { box-shadow: 0 0 20px rgba(255,255,255,0.1); }
 }
 
+.hugeTextWrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.hugeText {
+  font-size: clamp(3rem, 11vw, 10rem);
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  color: #fff;
+  line-height: 0.9;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #ffffff 0%, #3f3f46 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.9;
+}
+
 .bottomBar {
   width: 100%;
   padding-top: 2rem;

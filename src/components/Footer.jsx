@@ -42,6 +42,16 @@ const Footer = () => {
         </motion.a>
       </motion.div>
 
+      <motion.div 
+        className={styles.hugeTextWrapper}
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1, delay: 0.2 }}
+      >
+        <h1 className={styles.hugeText}>YOU DREAM, WE EXECUTE</h1>
+      </motion.div>
+
       <div className={styles.bottomBar}>
         <p>&copy; {new Date().getFullYear()} Nandina Associates. All Rights Reserved.</p>
       </div>

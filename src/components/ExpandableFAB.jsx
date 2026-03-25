@@ -16,7 +16,7 @@ const ExpandableFAB = () => {
     { icon: <Phone size={20} />, label: 'Call Us', href: 'tel:+918688041085', color: '#3b82f6' },
     { icon: <Mail size={20} />, label: 'Email', href: 'mailto:nandinaassociates01@gmail.com', color: '#ef4444' },
     { icon: <MessageCircle size={20} />, label: 'WhatsApp', href: 'https://wa.me/918688041085', color: '#25D366' },
-    { icon: <InstaIcon />, label: 'Instagram', href: 'https://instagram.com/nandinaassociates', color: '#E1306C' },
+    { icon: <InstaIcon />, label: 'Instagram', href: 'https://www.instagram.com/sk_design_curve?utm_source=qr&igsh=eHhvMmlsdGVxMnF4', color: '#E1306C' },
   ];
 
   return (
