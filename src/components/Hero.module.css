@@ -1,0 +1,150 @@
+.heroSection {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background: #000;
+}
+
+.backgrounds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center 30%;
+  transform: scale(1.02);
+  animation: slowPan 30s infinite alternate ease-in-out;
+}
+
+@keyframes slowPan {
+  0% { transform: scale(1.02) translateY(0); }
+  100% { transform: scale(1.06) translateY(-2%); }
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0.4) 100%);
+}
+
+.bottomContainer {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 4rem 4rem;
+}
+
+.bottomLeft {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.brandLabel {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f4f4f5;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.serviceCategory {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 400;
+  color: #a1a1aa;
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem;
+}
+
+.mainTagline {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(180deg, #ffffff 0%, #a1a1aa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.introDesc {
+  color: #a1a1aa;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.bottomRightCTA {
+  display: flex;
+  align-items: center;
+  background: rgba(30, 30, 30, 0.4);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  padding: 0.75rem 0.75rem 0.75rem 1.5rem;
+  border-radius: 40px;
+  border: 1px solid rgba(255,255,255,0.1);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ctaTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ctaPrice {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.ctaSub {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+}
+
+.ctaBtn {
+  background: #0071e3;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.ctaBtn:hover {
+  background: #0077ED;
+}
+
+@media (max-width: 900px) {
+  .bottomContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    padding-bottom: 8rem;
+    justify-content: flex-end;
+    gap: 3rem;
+  }
+}
