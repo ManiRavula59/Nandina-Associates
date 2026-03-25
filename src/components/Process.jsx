@@ -8,11 +8,11 @@ const Process = () => {
 
   const steps = [
     { title: 'Consultation', short: 'Aligning with your vision.', desc: 'We start by understanding your lifestyle, preferences, and practical needs. Every great structure begins with a conversation.', image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200' },
-    { title: 'Planning', short: 'Precision and budgeting.', desc: 'Mathematical precision meets creative vision. We draft comprehensive plans and set realistic, transparent budgets.', image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200' },
-    { title: 'Design', short: '3D visualizations.', desc: 'Before a single brick is laid, you will walk through your future home in stunning 4K photorealistic 3D rendering.', image: 'https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200' },
+    { title: 'Planning', short: 'Precision and budgeting.', desc: 'Mathematical precision meets creative vision. We draft comprehensive plans and set realistic, transparent budgets.', image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { title: 'Design', short: '3D visualizations.', desc: 'Before a single brick is laid, you will walk through your future home in stunning 4K photorealistic 3D rendering.', image: 'https://images.unsplash.com/photo-1669736659471-b91f9bb70940?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
     { title: 'Approval', short: 'Securing clearances.', desc: 'We handle the bureaucracy. All legal, structural, and RUDA clearances are secured smoothly and professionally.', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200' },
-    { title: 'Execution', short: 'Master craftsmen.', desc: 'Premium materials meet master builders. Our site engineers ensure the blueprint is executed flawlessly.', image: 'https://unsplash.com/photos/room-under-renovation-with-tools-and-furniture-pmVHjCWmGnw' },
-    { title: 'Handover', short: 'Welcome home.', desc: 'The final walkthrough. We hand over the keys to a space that is impeccably finished, clean, and ready for life.', image: 'https://unsplash.com/photos/a-living-room-with-a-couch-a-table-and-chairs-E_J7HhGttHM' }
+    { title: 'Execution', short: 'Master craftsmen.', desc: 'Premium materials meet master builders. Our site engineers ensure the blueprint is executed flawlessly.', image: 'https://images.unsplash.com/photo-1547609434-b732edfee020?q=80&w=1688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { title: 'Handover', short: 'Welcome home.', desc: 'The final walkthrough. We hand over the keys to a space that is impeccably finished, clean, and ready for life.', image: 'https://images.unsplash.com/photo-1664711942326-2c3351e215e6?q=80&w=1634&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }
   ];
 
   return (

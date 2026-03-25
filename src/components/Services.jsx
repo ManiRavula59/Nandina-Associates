@@ -10,7 +10,7 @@ const Services = () => {
       subtitle: "Blueprint of your vision.",
       icon: <Compass size={32} />,
       list: ["Floor Plans", "Elevations", "2D & 3D Design", "Legal Approvals"],
-      image: "https://unsplash.com/photos/a-couple-of-people-that-are-holding-some-paper-CIoJVsGf1zw"
+      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       title: "The Core Build",
