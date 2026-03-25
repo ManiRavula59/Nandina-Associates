@@ -10,14 +10,14 @@ const Services = () => {
       subtitle: "Blueprint of your vision.",
       icon: <Compass size={32} />,
       list: ["Floor Plans", "Elevations", "2D & 3D Design", "Legal Approvals"],
-      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1000"
+      image: "https://unsplash.com/photos/a-couple-of-people-that-are-holding-some-paper-CIoJVsGf1zw"
     },
     {
       title: "The Core Build",
       subtitle: "The silent strength of your home.",
       icon: <Ruler size={32} />,
       list: ["Engineering", "Electrical", "Plumbing", "Structure"],
-      image: "/core-build.jpg"
+      image: "https://images.unsplash.com/photo-1632885936573-cf65e9a9fe92?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       title: "Interior Architecture",
@@ -38,7 +38,7 @@ const Services = () => {
   return (
     <section className={styles.servicesSection} id="services">
       <div className={styles.header}>
-        <motion.h2 
+        <motion.h2
           className={styles.sectionTitle}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ const Services = () => {
         >
           Precision in Every Phase.
         </motion.h2>
-        <motion.p 
+        <motion.p
           className={styles.sectionSub}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ const Services = () => {
 
       <div className={styles.bentoGrid}>
         {cards.map((card, index) => (
-          <motion.div 
+          <motion.div
             key={index}
             className={styles.card}
             initial={{ opacity: 0, y: 40 }}
@@ -70,7 +70,7 @@ const Services = () => {
             <div className={styles.cardImage} style={{ backgroundImage: `url(${card.image})` }}>
               <div className={styles.imageOverlay}></div>
             </div>
-            
+
             <div className={styles.cardContent}>
               <div className={styles.cardHeader}>
                 <div className={styles.icon}>{card.icon}</div>
